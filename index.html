@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>화진소방 | 울산 소방점검 전문</title>
-    <meta name="description" content="울산 소방점검 전문 화진소방. 소방점검, 작동기능점검, 종합정밀점검, 소방시설 공사·보수, 방화관리 대행." />
+    <meta
+      name="description"
+      content="울산 소방점검 전문 화진소방. 소방점검, 작동기능점검, 종합정밀점검, 소방시설 공사·보수, 방화관리 대행."
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -13,12 +16,19 @@
         <a class="brand" href="#home" aria-label="화진소방 홈">
           <img src="./logo-hwajin.svg" alt="화진소방 로고" />
         </a>
+        <nav class="desktop-nav" aria-label="주요 메뉴">
+          <a href="#about">회사소개</a>
+          <a href="#services">서비스</a>
+          <a href="#process">업무절차</a>
+          <a href="#contact">문의</a>
+        </nav>
         <a class="cta-call" href="tel:0522120119">대표전화 052-212-0119</a>
       </div>
     </header>
 
     <main id="home">
       <section class="hero">
+        <div class="hero-bg"></div>
         <div class="wrap hero-inner">
           <p class="eyebrow">울산 소방점검 전문</p>
           <h1>화진소방</h1>
@@ -27,17 +37,29 @@
             <a class="btn btn-primary" href="tel:0522120119">전화상담</a>
             <a class="btn btn-ghost" href="#services">서비스 보기</a>
           </div>
+          <div class="hero-badges">
+            <span>✔ 전 세대가 이해하기 쉬운 안내</span>
+            <span>✔ 울산 지역 밀착 대응</span>
+            <span>✔ 점검·보수·대행 원스톱</span>
+          </div>
         </div>
       </section>
 
       <section class="section" id="about">
-        <div class="wrap">
-          <h2>회사소개</h2>
-          <p>
-            화진소방은 울산 지역의 건물과 사업장을 대상으로 소방 안전 점검 및 관리 서비스를 제공합니다.
-            <strong>신뢰</strong>, <strong>정확성</strong>, <strong>신속 대응</strong>을 원칙으로
-            고객의 안전을 최우선으로 생각합니다.
-          </p>
+        <div class="wrap two-col">
+          <div>
+            <h2>회사소개</h2>
+            <p>
+              화진소방은 울산 지역의 건물·사업장을 대상으로 소방 안전 점검 및 관리 서비스를 제공합니다.
+              <strong>신뢰</strong>, <strong>정확성</strong>, <strong>신속 대응</strong>을 원칙으로 고객의 안전을 최우선으로 생각합니다.
+            </p>
+            <div class="stats">
+              <div><strong>울산</strong><span>지역 밀착 대응</span></div>
+              <div><strong>전문</strong><span>소방점검·관리</span></div>
+              <div><strong>원스톱</strong><span>점검·보수·대행</span></div>
+            </div>
+          </div>
+          <div class="about-image" role="img" aria-label="소방점검 현장 이미지"></div>
         </div>
       </section>
 
@@ -45,11 +67,11 @@
         <div class="wrap">
           <h2>서비스 안내</h2>
           <div class="grid">
-            <article class="card"><h3>소방점검</h3><p>건물 내 소방시설 상태를 확인하고 이상 여부를 점검합니다.</p></article>
-            <article class="card"><h3>작동기능점검</h3><p>설비가 실제 상황에서 정상 작동하는지 기능 중심으로 점검합니다.</p></article>
-            <article class="card"><h3>종합정밀점검</h3><p>소방시설 전반을 기준에 따라 정밀하게 검사하고 보고합니다.</p></article>
-            <article class="card"><h3>소방시설 공사·보수</h3><p>노후/불량 설비의 개선 공사와 보수 작업을 진행합니다.</p></article>
-            <article class="card"><h3>방화관리 대행</h3><p>정기 점검, 서류 관리, 법정 대응을 체계적으로 지원합니다.</p></article>
+            <article class="card"><h3>🔥 소방점검</h3><p>건물 내 소방시설 상태를 확인하고 이상 여부를 점검합니다.</p></article>
+            <article class="card"><h3>🧪 작동기능점검</h3><p>설비가 실제 상황에서 정상 작동하는지 기능 중심으로 점검합니다.</p></article>
+            <article class="card"><h3>📋 종합정밀점검</h3><p>소방시설 전반을 기준에 따라 정밀하게 검사하고 보고합니다.</p></article>
+            <article class="card"><h3>🛠 소방시설 공사·보수</h3><p>노후/불량 설비의 개선 공사와 보수 작업을 진행합니다.</p></article>
+            <article class="card"><h3>🧯 방화관리 대행</h3><p>정기 점검, 서류 관리, 법정 대응을 체계적으로 지원합니다.</p></article>
           </div>
         </div>
       </section>
@@ -68,15 +90,19 @@
       </section>
 
       <section class="section section-alt" id="contact">
-        <div class="wrap">
-          <h2>문의하기</h2>
-          <ul class="contact-list">
-            <li><span>대표전화</span><a href="tel:0522120119">052-212-0119</a></li>
-            <li><span>휴대전화</span><a href="tel:01057421712">010-5742-1712</a></li>
-            <li><span>팩스</span><a href="tel:0522351119">052-235-1119</a></li>
-            <li><span>이메일</span><a href="mailto:Pa-ch-su@naver.com">Pa-ch-su@naver.com</a></li>
-            <li><span>주소</span><address>울산 중구 북부순환도로 750 1층</address></li>
-          </ul>
+        <div class="wrap contact-box">
+          <div>
+            <h2>문의하기</h2>
+            <p class="contact-lead">빠른 상담이 필요하시면 아래 번호로 연락 주세요.</p>
+            <ul class="contact-list">
+              <li><span>대표전화</span><a href="tel:0522120119">052-212-0119</a></li>
+              <li><span>휴대전화</span><a href="tel:01057421712">010-5742-1712</a></li>
+              <li><span>팩스</span><a href="tel:0522351119">052-235-1119</a></li>
+              <li><span>이메일</span><a href="mailto:Pa-ch-su@naver.com">Pa-ch-su@naver.com</a></li>
+              <li><span>주소</span><address>울산 중구 북부순환도로 750 1층</address></li>
+            </ul>
+          </div>
+          <div class="mini-map" role="img" aria-label="울산 중구 위치 안내 이미지"></div>
         </div>
       </section>
     </main>
