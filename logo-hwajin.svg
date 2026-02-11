@@ -1,0 +1,8 @@
+<svg width="360" height="92" viewBox="0 0 360 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="화진소방 로고">
+  <rect x="1" y="1" width="358" height="90" rx="14" fill="white" stroke="#D8DEE8"/>
+  <rect x="16" y="16" width="60" height="60" rx="12" fill="#0F4C81"/>
+  <path d="M46 26 L58 44 H34 L46 26Z" fill="#fff"/>
+  <rect x="43" y="44" width="6" height="22" rx="2" fill="#fff"/>
+  <text x="92" y="48" fill="#0F4C81" font-size="30" font-family="Noto Sans KR, sans-serif" font-weight="800">화진소방</text>
+  <text x="93" y="69" fill="#5A6777" font-size="12" font-family="Noto Sans KR, sans-serif">울산 소방점검 전문 · 신속 · 정확 · 신뢰</text>
+</svg>
